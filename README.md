@@ -14,12 +14,19 @@ Google's Inception Image Recognition as a Heroku API
 
     sudo pip install heroku gunicorn flask tensorflow
 
-**Setup Git**
+**Setup Git **
 
     git init
     git add requirements.txt Procfile run.sh app.py  
+    git commit -am "init"  
+    
+**Setup Heroku**
+
+    heroku login
     heroku git:remote -a image001
-    git commit -am "init"
+
+**Push to Heroku**
+
     git push heroku master
 
 **Run App Locally**
