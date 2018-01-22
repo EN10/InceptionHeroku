@@ -46,3 +46,4 @@ The model can detect 1000 Classes:  [ImageNet](http://image-net.org/challenges/L
 * [run.sh](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/run.sh) inference bash script
 * [Procfile](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/Procfile) command to run app.py
 * [app.py](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/app.py) flask / python app
+* [classify_image.py](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/classify_image.py) inception classify image script
