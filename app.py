@@ -5,10 +5,9 @@ import subprocess
 
 @app.route('/')
 def index():
+    
     q = request.args.get('q')
-
-    subprocess.call(["curl", q, ">", "image.jpg"])
-    p = subprocess.Popen(["python", "classify_image.py", "--image_file", "image.jpg"], stdout=subprocess.PIPE)
+    p = subprocess.Popen(["bash", "run.sh", q], stdout=subprocess.PIPE)
     output, err = p.communicate()
     output = output.replace('\n','<br>')
 
