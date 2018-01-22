@@ -33,7 +33,9 @@ Google's Inception Image Recognition as a Heroku API
 
     export FLASK_APP=app.py
     flask run --host=0.0.0.0 --port=8080
-    
-Example cs50 URL:   http://heroku-eniof.cs50.io
 
-Query Test: http://heroku-eniof.cs50.io/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg
+**Test:**    
+
+* Example cs50 URL:   http://heroku-eniof.cs50.io
+* cs50 test:    http://heroku-eniof.cs50.io/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg
+* Heroku test:  https://image001.herokuapp.com/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg
