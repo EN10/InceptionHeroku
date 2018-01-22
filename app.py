@@ -1,11 +1,15 @@
-from flask import Flask
+from flask import Flask, request
 app = Flask(__name__)
 
 import subprocess
-p = subprocess.Popen(["python", "classify_image.py"], stdout=subprocess.PIPE)
-output, err = p.communicate()
-output = output.replace('\n','<br>')
 
 @app.route('/')
 def index():
-	return output
+    q = request.args.get('q')
+
+    subprocess.call(["curl", q, ">", "image.jpg"])
+    p = subprocess.Popen(["python", "classify_image.py", "--image_file", "image.jpg"], stdout=subprocess.PIPE)
+    output, err = p.communicate()
+    output = output.replace('\n','<br>')
+
+    return output
