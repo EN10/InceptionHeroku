@@ -1,7 +1,7 @@
 # Inception on Heroku
 
 Google's Inception Image Recognition as a Heroku API    
-The model can detect 1000 Classes:  [ImageNet Link](http://image-net.org/challenges/LSVRC/2012/browse-synsets) or [Internet Archive Link](http://web.archive.org/web/20130405004914/http://image-net.org:80/challenges/LSVRC/2012/browse-synsets)
+The model can detect 1000 Classes:  [ImageNet](http://image-net.org/challenges/LSVRC/2012/browse-synsets) or [Internet Archive](http://web.archive.org/web/20130405004914/http://image-net.org:80/challenges/LSVRC/2012/browse-synsets)
 
 * [Python on Heroku](https://github.com/EN10/PythonHeroku)  
 * [Image Recognition with Inception](https://github.com/EN10/SimpleInception)  
