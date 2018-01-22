@@ -17,7 +17,7 @@ Google's Inception Image Recognition as a Heroku API
 **Setup Git**
 
     git init
-    git add requirements.txt runtime.txt Procfile run.sh app.py  
+    git add runtime.txt requirements.txt run.sh Procfile app.py  
     git commit -am "init"  
     
 **Setup Heroku**
