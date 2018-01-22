@@ -38,3 +38,11 @@ The model can detect 1000 Classes:  [ImageNet](http://image-net.org/challenges/L
 * Example cs50 URL:   http://heroku-eniof.cs50.io
 * cs50 test:    http://heroku-eniof.cs50.io/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg
 * Heroku test:  https://image001.herokuapp.com/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg
+
+#### Files:
+
+* [runtime.txt](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/runtime.txt) select python 2.7
+* [requirements.txt](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/requirements.txt) prerequisite pip packages
+* [run.sh](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/run.sh) inference bash script
+* [Procfile](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/Procfile) command to run app.py
+* [app.py](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/app.py) flask / python app
