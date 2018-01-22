@@ -9,6 +9,19 @@ Google's Inception Image Recognition as a Heroku API
 * [Flask Query Strings](https://stackoverflow.com/questions/11774265/how-do-you-get-a-query-string-on-flask)
 
 
+
+#### Install
+
+    sudo pip install heroku gunicorn flask tensorflow
+
+**Setup Git**
+
+    git init
+    git add requirements.txt Procfile run.sh app.py  
+    heroku git:remote -a image001
+    git commit -am "init"
+    git push heroku master
+
 **Run App Locally**
 
     export FLASK_APP=app.py
