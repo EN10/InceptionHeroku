@@ -42,7 +42,7 @@ The model can detect 1000 Classes:  [ImageNet](http://image-net.org/challenges/L
 #### Files:
 
 * [runtime.txt](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/runtime.txt) select python 2.7
-* [requirements.txt](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/requirements.txt) prerequisite pip packages
+* [requirements.txt](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/requirements.txt) prerequisite pip packages for app.py
 * [run.sh](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/run.sh) inference bash script
 * [Procfile](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/Procfile) command to run app.py
 * [app.py](https://raw.githubusercontent.com/EN10/InceptionHeroku/master/app.py) flask / python app
