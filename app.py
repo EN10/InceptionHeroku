@@ -12,6 +12,6 @@ def index():
         output, err = p.communicate()
         output = output.replace('\n','<br>')
     else:
-        output = 'ERROR: No URL Given!'
+        output = '<a href="https://image001.herokuapp.com/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg">Elephant Example</a>'
 
     return output
