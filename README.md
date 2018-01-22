@@ -1,14 +1,13 @@
 # Inception on Heroku
 
-Google's Inception Image Recognition as a Heroku API
+Google's Inception Image Recognition as a Heroku API    
+The model can detect 1000 Classes:  [ImageNet Link](http://image-net.org/challenges/LSVRC/2012/browse-synsets) or [Internet Archive Link](http://web.archive.org/web/20130405004914/http://image-net.org:80/challenges/LSVRC/2012/browse-synsets)
 
 * [Python on Heroku](https://github.com/EN10/PythonHeroku)  
 * [Image Recognition with Inception](https://github.com/EN10/SimpleInception)  
 * [Node API](https://github.com/EN10/InceptionWebAPI)
 * [Bash in Python](http://blog.nuventure.in/2014/09/04/executing-bash-commands-via-python)
 * [Flask Query Strings](https://stackoverflow.com/questions/11774265/how-do-you-get-a-query-string-on-flask)
-
-
 
 #### Install
 
