@@ -12,6 +12,6 @@ def index():
         output, err = p.communicate()
         output = output.replace('\n','<br>')
     else:
-        output = '<a href="https://image001.herokuapp.com/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg">Elephant Example</a>'
+        output = '<a href="https://image001.herokuapp.com/?q=https://demo.phpgang.com/crop-images/demo_files/pool.jpg">Tiger Example</a>'
 
     return output

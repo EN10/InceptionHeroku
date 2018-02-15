@@ -36,8 +36,8 @@ The model can detect 1000 Classes:  [ImageNet](http://image-net.org/challenges/L
 **Test:**    
 
 * Example cs50 URL:   http://heroku-eniof.cs50.io
-* cs50 test:    http://heroku-eniof.cs50.io/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg
-* Heroku test:  https://image001.herokuapp.com/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg
+* cs50 test:    http://heroku-eniof.cs50.io/?qhttps://demo.phpgang.com/crop-images/demo_files/pool.jpg
+* Heroku test:  https://image001.herokuapp.com/?q=https://demo.phpgang.com/crop-images/demo_files/pool.jpg
 
 #### Files:
 
